@@ -1,0 +1,532 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/ConflictLib.sol": {
+      "lastModificationDate": 1726800593586,
+      "contentHash": "6a5fe96be69865fbfab0a97c8b929b47",
+      "sourceName": "contracts/ConflictLib.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "ConflictLib"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/ConflictManager.sol": {
+      "lastModificationDate": 1729146695504,
+      "contentHash": "99ea7719e8e2c9e6192bb3e081bbd0b6",
+      "sourceName": "contracts/ConflictManager.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ConflictLib.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "ConflictManager"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/VRO.sol": {
+      "lastModificationDate": 1729064805083,
+      "contentHash": "a214fe1264e502624c914a955dc0a9f4",
+      "sourceName": "contracts/VRO.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ManagerManager.sol",
+        "./UserManager.sol",
+        "./ConflictManager.sol",
+        "./VoteManager.sol",
+        "./ConflictLib.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "VRO"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/ManagerManager.sol": {
+      "lastModificationDate": 1728551377579,
+      "contentHash": "2c7f7935324b41c6a55810679ce631a0",
+      "sourceName": "contracts/ManagerManager.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ManagerLib.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "ManagerManager"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/UserManager.sol": {
+      "lastModificationDate": 1727079317479,
+      "contentHash": "e649bac49ac4cc6c56bd6f75f5061711",
+      "sourceName": "contracts/UserManager.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UserLib.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "UserManager"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/VoteManager.sol": {
+      "lastModificationDate": 1728632848421,
+      "contentHash": "05a7cbd1217738421a8303450ec1fbb5",
+      "sourceName": "contracts/VoteManager.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZKTreeVote.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "VoteManager"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/ManagerLib.sol": {
+      "lastModificationDate": 1728551725303,
+      "contentHash": "197044ff5f3781a7c8ce17a1ec087a99",
+      "sourceName": "contracts/ManagerLib.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "ManagerLib"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/UserLib.sol": {
+      "lastModificationDate": 1726800593606,
+      "contentHash": "31eb9face7626c99904b75f5c895cec0",
+      "sourceName": "contracts/UserLib.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "UserLib"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/ZKTreeVote.sol": {
+      "lastModificationDate": 1728630844002,
+      "contentHash": "64dfa1221fbfa04502d898ab6c52765c",
+      "sourceName": "contracts/ZKTreeVote.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZKTree.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ZKTreeVote"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/ZKTree.sol": {
+      "lastModificationDate": 1726800593628,
+      "contentHash": "22b56281ac20b8a4e2b249eac0d7ba55",
+      "sourceName": "contracts/ZKTree.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MerkleTree.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IVerifier",
+        "ZKTree"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/MerkleTree.sol": {
+      "lastModificationDate": 1728632182716,
+      "contentHash": "49a37de1b11fa0a21372a616308fbee5",
+      "sourceName": "contracts/MerkleTree.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IHasher",
+        "MerkleTree"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/MultiZKTreeVote.sol": {
+      "lastModificationDate": 1726800593604,
+      "contentHash": "4e73bde2c051e7610d3f7d1e7ecfdf28",
+      "sourceName": "contracts/MultiZKTreeVote.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZKTreeVote.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "MultiZKTreeVote"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/Utils.sol": {
+      "lastModificationDate": 1726800593614,
+      "contentHash": "44afe745c692fb33f07709431f2b629a",
+      "sourceName": "contracts/Utils.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "Utils"
+      ]
+    },
+    "/Users/liqi/Documents/Project/routing_security/VRO/vro/contracts/Verifier.sol": {
+      "lastModificationDate": 1726800593617,
+      "contentHash": "570a40062f13ae118dc977e0f5ee9db4",
+      "sourceName": "contracts/Verifier.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Pairing",
+        "Verifier"
+      ]
+    }
+  }
+}

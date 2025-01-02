@@ -1,0 +1,13 @@
+console.log(txReceipt)
+const txReceipt = await ethers.provider.getTransactionReceipt("0x3d24bb5daac59afd2583cc69063850b9d14f7940e169faa6a2f133e65c7835b4")
+const txReceipt = await ethers.provider.getTransactionReceipt("0x3d24bb5daac59afd2583cc69063850b9d14f7940e169faa6a2f133e65c7835b4"）
+const isManager4 = await VRO.isManager();
+const isManager = await VRO.isManager();
+console.log(isManager3)
+const isManager3 = await Manager.isManager("0x322813fd9a801c5507c9de605d63cea4f2ce6c44")
+const isManager2 = await Manager.isManager("0x322813fd9a801c5507c9de605d63cea4f2ce6c44")
+const isManager2 = await Manager.isManager()
+const isManager = await Manager.isManager()
+const Manager = await ethers.getContractAt("ManagerManager","0x322813fd9a801c5507c9de605d63cea4f2ce6c44")
+const isManager = await VRO.isManager();
+const VRO = await ethers.getContractAt("VRO", "0x7a2088a1bfc9d81c55368ae168c2c02570cb814f");
